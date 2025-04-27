@@ -46,7 +46,7 @@ export default function Education() {
 
               <p className="text-muted-foreground">
                 Currently pursuing my bachelor&apos;s degree with a focus on software development, data structures,
-                algorithms, and web technologies.
+                algorithms, and core concepts.
               </p>
 
               <div className="mt-4">

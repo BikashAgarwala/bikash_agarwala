@@ -7,7 +7,7 @@ import SectionHeading from "./section-heading"
 const skillCategories = [
   {
     name: "Languages",
-    skills: ["Java (OOPs, DSA)", "Python", "JavaScript", "SQL", "HTML", "CSS", "C/C++"],
+    skills: ["Java (OOPs, DSA)", "Python", "JavaScript", "TypeScript", "SQL", "HTML", "CSS", "C/C++"],
   },
   {
     name: "Frontend",

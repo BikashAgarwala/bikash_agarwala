@@ -59,9 +59,8 @@ export default function About() {
             </p>
 
             <p>
-              When I&apos;m not coding, I enjoy participating in hackathons, contributing to open-source projects, and
-              expanding my knowledge in emerging technologies. I&apos;m also actively involved in tech communities as the Web
-              Technology Lead for GDG on Campus AEC.
+              Outside of coding, I love diving into new technologies, experimenting with personal projects, and constantly learning about the latest innovations in tech. I&apos;m proud to be actively involved in tech communities as the Web Technology Lead for GDG on Campus AEC.
+
             </p>
 
             <div className="pt-4">

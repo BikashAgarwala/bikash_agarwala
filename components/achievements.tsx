@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import { Award, Users, Trophy } from "lucide-react"
+import { Award, Users, Trophy , Braces } from "lucide-react"
 import SectionHeading from "./section-heading"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
@@ -15,24 +15,30 @@ const achievements = [
   },
   {
     id: 2,
+    title: "Organized Events",
+    description: "200+ participants learned showcased their innovative ideas and working prototypes",
+    icon: Braces,
+  },
+  {
+    id: 3,
     title: "Second Runner-up",
     description: "In Extempore competition",
     icon: Award,
   },
   {
-    id: 3,
+    id: 4,
     title: "Web Technology Lead",
     description: "GDG on Campus AEC (2024–25)",
     icon: Users,
   },
   {
-    id: 4,
+    id: 5,
     title: "Web Technology Facilitator",
     description: "GDSC AEC (2023–24)",
     icon: Users,
   },
   {
-    id: 5,
+    id: 6,
     title: "Hardware Club Representative",
     description: "Asansol Engineering College",
     icon: Users,

@@ -21,7 +21,7 @@ const projects = [
       "Built dynamic restaurant listing, live menu updates, and customer ordering experience with real-time status.",
     image: FoodEase,
     tags: ["Spring Boot", "Next.js", "MySQL", "Zustand", "Tanstack Query", "Tailwind CSS"],
-    github: "#",
+    github: "https://github.com/BikashAgarwala/FoodEase",
     demo: "#",
   },
   {
@@ -31,7 +31,7 @@ const projects = [
     details: "Implemented custom room creation, joining, and instant updates using WebSocket communication.",
     image: Chatify,
     tags: ["Spring Boot", "WebSocket", "React.js", "Tailwind CSS"],
-    github: "#",
+    github: "https://github.com/BikashAgarwala/Chatify",
     demo: "#",
   },
   {
@@ -41,8 +41,8 @@ const projects = [
     details: "Added features like health tracking, rewards system, and secure authentication via OAuth.",
     image: HealthyMe,
     tags: ["React.js", "Tailwind CSS", "AI Integration"],
-    github: "#",
-    demo: "#",
+    github: "https://github.com/BikashAgarwala/Healthy-me",
+    demo: "healthy-me-me.vercel.app/",
   },
 ]
 

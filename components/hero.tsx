@@ -9,8 +9,10 @@ import AnimatedBackground from "./animated-background"
 import FloatingShapes from "./floating-shapes"
 import me from "@/public/me_suit.avif"
 import Image from "next/image"
+import { useRouter } from "next/navigation"
 
 export default function Hero() {
+  const router = useRouter()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
@@ -83,23 +85,23 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
-            className="flex flex-wrap gap-3 justify-center mt-6"
+            className="flex max-lg:flex-col gap-3 justify-center items-center mt-6"
           >
             <div className="flex gap-3">
               <Button onClick={handleDownload}  className="gap-2">
                 <Download size={16} />
                 Resume
               </Button>
-              <Button variant="outline" className="gap-2">
+              <Button onClick={() => {router.push("#contact")}} variant="outline" className="gap-2">
                 <Mail size={16} />
                 Contact Me
               </Button>
             </div>
             <div className="flex gap-3">
-              <Button variant="ghost" size="icon">
+              <Button onClick={() => {router.push("https://github.com/BikashAgarwala")}} variant="ghost" size="icon">
                 <Github size={20} />
               </Button>
-              <Button variant="ghost" size="icon">
+              <Button onClick={() => {router.push("www.linkedin.com/in/bikash-agarwala-283873229")}} variant="ghost" size="icon">
                 <Linkedin size={20} />
               </Button>
             </div>

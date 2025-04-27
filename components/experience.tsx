@@ -17,7 +17,7 @@ export default function Experience() {
       <div className="container px-4 md:px-6">
         <SectionHeading title="Work Experience" subtitle="My professional journey so far" />
 
-        <div className="mt-12 max-w-3xl mx-auto">
+        <div className="mt-12 max-w-4xl mx-auto">
           <motion.div
             ref={ref}
             initial={{ opacity: 0, y: 50 }}
@@ -45,13 +45,11 @@ export default function Experience() {
               </div>
 
               <ul className="space-y-2 list-disc list-inside text-muted-foreground">
-                <li>
-                  Developed and optimized full-stack features using FastAPI (Python), Next.js, MongoDB, Redis, and
-                  Celery.
-                </li>
-                <li>Built flight booking services, holiday packages, hotel and activity management modules.</li>
-                <li>Integrated payment gateways (Razorpay, PhonePe) and WhatsApp notification systems.</li>
-                <li>Designed scalable APIs handling 10,000+ users/month with high performance.</li>
+                <li> Built flight, hotel, and holiday booking modules for 10,000+ monthly users, enhancing user experience.</li>
+                <li>Integrated secure payments and WhatsApp automation, boosting engagement by 30%.</li>
+                <li>Developed scalable backends with FastAPI, MongoDB, Redis, and Celery, reducing latency by 25%.</li>
+                <li>Optimized database queries and async tasks, achieving 40% faster processing during peak traffic.</li>
+                <li>Collaborated with designers, QA, and marketing teams, ensuring on-time feature rollouts.</li>
               </ul>
 
               <div className="flex flex-wrap gap-2 mt-4">
