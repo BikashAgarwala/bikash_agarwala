@@ -92,7 +92,7 @@ export default function Projects() {
                     )}
                   </div>
                 </CardContent>
-                <CardFooter className="flex justify-between">
+                {/* <CardFooter className="flex justify-between">
                   <Button variant="ghost" size="sm" className="gap-1">
                     <Github size={16} />
                     Code
@@ -101,7 +101,7 @@ export default function Projects() {
                     <ExternalLink size={16} />
                     Demo
                   </Button>
-                </CardFooter>
+                </CardFooter> */}
               </Card>
             </motion.div>
           ))}

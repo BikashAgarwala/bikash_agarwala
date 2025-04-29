@@ -101,7 +101,7 @@ export default function Hero() {
               <Button onClick={() => {router.push("https://github.com/BikashAgarwala")}} variant="ghost" size="icon">
                 <Github size={20} />
               </Button>
-              <Button onClick={() => {router.push("www.linkedin.com/in/bikash-agarwala-283873229")}} variant="ghost" size="icon">
+              <Button onClick={() => {router.push("https://linkedin.com/in/bikash-agarwala-283873229")}} variant="ghost" size="icon">
                 <Linkedin size={20} />
               </Button>
             </div>
