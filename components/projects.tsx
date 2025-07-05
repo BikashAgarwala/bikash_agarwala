@@ -30,7 +30,7 @@ const projects = [
     description: "A real-time chat room platform supporting multiple users with seamless live messaging.",
     details: "Implemented custom room creation, joining, and instant updates using WebSocket communication.",
     image: Chatify,
-    tags: ["Spring Boot", "WebSocket", "React.js", "Tailwind CSS"],
+    tags: ["Spring Boot", "WebSocket", "JavaScript"],
     github: "https://github.com/BikashAgarwala/Chatify",
     demo: "#",
   },
