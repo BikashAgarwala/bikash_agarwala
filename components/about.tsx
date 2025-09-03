@@ -14,7 +14,7 @@ export default function About() {
 
   return (
     <section id="about" className="py-20 bg-muted/30">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="About Me" subtitle="Get to know me better" />
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center mt-12">
@@ -29,7 +29,7 @@ export default function About() {
             <Image
               src={me || "/placeholder.svg?height=400&width=400"}
               alt="Bikash Agarwala"
-              className="relative rounded-2xl object-cover w-[400]"
+              className="relative rounded-2xl object-cover w-[350]"
             />
           </motion.div>
 
@@ -41,26 +41,19 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-lg">
-              Hello! I&apos;m <span className="font-semibold text-primary">Bikash Agarwala</span>, a passionate software
-              developer based in Asansol, West Bengal, India. I&apos;m currently pursuing my Bachelor&apos;s degree in Information
-              Technology at Asansol Engineering College.
+              Hey there! I&apos;m <span className="font-semibold text-primary">Bikash Agarwala</span>, a full-stack developer who loves turning complex problems into clean, scalable solutions. Currently pursuing my Bachelor&apos;s in Information Technology at Asansol Engineering College, I thrive at the intersection of frontend finesse and backend muscle.
             </p>
 
             <p>
-              As a fresher in the tech industry, I&apos;ve already gained valuable experience through my internship at Komfy
-              Trip LLP, where I&apos;ve been working on full-stack development using FastAPI, Next.js, MongoDB, and other
-              modern technologies.
+              I&apos;ve gained hands-on experience at Komfy Trip LLP, where I built and optimized production-ready web applications using FastAPI, Next.js, MongoDB, Redis, and other modern technologies. My focus: creating fast, responsive, and reliable apps that people actually enjoy using.
             </p>
 
             <p>
-              I&apos;m particularly interested in building scalable web applications and solving complex problems through
-              elegant code. My experience spans both frontend and backend development, with a focus on creating
-              responsive, user-friendly interfaces backed by robust server-side logic.
+              Beyond shipping code, I&apos;m obsessed with learning, experimenting, and pushing limits. Whether it&apos;s scaling systems, refining UI/UX, or diving into new stacks, I aim to craft solutions that don&apos;t just work—they impress.
             </p>
 
             <p>
-              Outside of coding, I love diving into new technologies, experimenting with personal projects, and constantly learning about the latest innovations in tech. I&apos;m proud to be actively involved in tech communities as the Web Technology Lead for GDG on Campus AEC.
-
+              Outside of dev work, I contribute to communities as the Web Technology Lead for GDG on Campus AEC, helping others grow while staying on top of the latest in tech.
             </p>
 
             <div className="pt-4">

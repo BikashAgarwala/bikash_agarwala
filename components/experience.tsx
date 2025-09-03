@@ -14,10 +14,10 @@ export default function Experience() {
 
   return (
     <section id="experience" className="py-20">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="Work Experience" subtitle="My professional journey so far" />
 
-        <div className="mt-12 max-w-4xl mx-auto">
+        <div className="mt-12 max-w-5xl mx-auto">
           <motion.div
             ref={ref}
             initial={{ opacity: 0, y: 50 }}
@@ -29,7 +29,7 @@ export default function Experience() {
 
             <div className="mb-8">
               <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
-                <h3 className="text-xl font-bold">Software Development Intern</h3>
+                <h3 className="text-xl font-bold">Software Development Engineer</h3>
                 <Badge variant="outline" className="font-normal">
                   August 2024 - Present
                 </Badge>
@@ -45,11 +45,11 @@ export default function Experience() {
               </div>
 
               <ul className="space-y-2 list-disc list-inside text-muted-foreground">
-                <li> Built flight, hotel, and holiday booking modules for 10,000+ monthly users, enhancing user experience.</li>
-                <li>Integrated secure payments and WhatsApp automation, boosting engagement by 30%.</li>
-                <li>Developed scalable backends with FastAPI, MongoDB, Redis, and Celery, reducing latency by 25%.</li>
-                <li>Optimized database queries and async tasks, achieving 40% faster processing during peak traffic.</li>
-                <li>Collaborated with designers, QA, and marketing teams, ensuring on-time feature rollouts.</li>
+                <li>Built booking workflows (flights, hotels, holidays) powering 20K+ monthly users.</li>
+                <li>Designed and developed flight list and filter system improving search speed by 45% and ensured scalability..</li>
+                <li>Enhanced search relevance and cut response times by 40% through query optimization, Redis caching, and background jobs.</li>
+                <li>Integrated Razorpay payments and WhatsApp API. Increased booking conversions by 30%.</li>
+                <li>Implemented MVVM architecture, Docker, and CI/CD pipelines. Boosted modularity, reliability, and deployment speed.</li>
               </ul>
 
               <div className="flex flex-wrap gap-2 mt-4">
@@ -59,7 +59,6 @@ export default function Experience() {
                 <Badge variant="secondary">Redis</Badge>
                 <Badge variant="secondary">Celery</Badge>
                 <Badge variant="secondary">Razorpay</Badge>
-                <Badge variant="secondary">PhonePe</Badge>
               </div>
             </div>
           </motion.div>

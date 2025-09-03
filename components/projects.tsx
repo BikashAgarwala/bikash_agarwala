@@ -54,7 +54,7 @@ export default function Projects() {
 
   return (
     <section id="projects" className="py-20 bg-muted/30">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="Projects" subtitle="Showcasing my technical skills through real-world applications" />
 
         <div ref={ref} className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">

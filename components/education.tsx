@@ -14,10 +14,10 @@ export default function Education() {
 
   return (
     <section id="education" className="py-20 bg-muted/30">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="Education" subtitle="My academic background" />
 
-        <div className="mt-12 max-w-3xl mx-auto">
+        <div className="mt-12 max-w-5xl mx-auto">
           <motion.div
             ref={ref}
             initial={{ opacity: 0, y: 50 }}
@@ -56,7 +56,8 @@ export default function Education() {
                   <Badge variant="secondary">Algorithms</Badge>
                   <Badge variant="secondary">Object-Oriented Programming</Badge>
                   <Badge variant="secondary">Database Management</Badge>
-                  <Badge variant="secondary">Web Development</Badge>
+                  <Badge variant="secondary">Computer Networks</Badge>
+                  <Badge variant="secondary">Software Engineering</Badge>
                 </div>
               </div>
             </div>

@@ -96,7 +96,7 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-20 bg-muted/30">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="Contact Me" subtitle="Let&apos;s get in touch" />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 mt-12">

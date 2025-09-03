@@ -72,14 +72,18 @@ export default function Hero() {
             />
           </motion.div>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.3 }}
             className="max-w-md text-muted-foreground"
           >
-            Passionate developer building innovative solutions with modern technologies
-          </motion.p>
+            <p>
+              I build web apps that are fast, reliable, and simple to use.
+              I work across frontend and backend to turn ideas into products.
+            </p>
+          </motion.div>
+
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -88,20 +92,20 @@ export default function Hero() {
             className="flex max-lg:flex-col gap-3 justify-center items-center mt-6"
           >
             <div className="flex gap-3">
-              <Button onClick={handleDownload}  className="gap-2">
+              <Button onClick={handleDownload} className="gap-2">
                 <Download size={16} />
                 Resume
               </Button>
-              <Button onClick={() => {router.push("#contact")}} variant="outline" className="gap-2">
+              <Button onClick={() => { router.push("#contact") }} variant="outline" className="gap-2">
                 <Mail size={16} />
                 Contact Me
               </Button>
             </div>
             <div className="flex gap-3">
-              <Button onClick={() => {router.push("https://github.com/BikashAgarwala")}} variant="ghost" size="icon">
+              <Button onClick={() => { router.push("https://github.com/BikashAgarwala") }} variant="ghost" size="icon">
                 <Github size={20} />
               </Button>
-              <Button onClick={() => {router.push("https://linkedin.com/in/bikash-agarwala-283873229")}} variant="ghost" size="icon">
+              <Button onClick={() => { router.push("https://linkedin.com/in/bikash-agarwala-283873229") }} variant="ghost" size="icon">
                 <Linkedin size={20} />
               </Button>
             </div>

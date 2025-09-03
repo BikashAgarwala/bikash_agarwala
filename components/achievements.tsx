@@ -53,7 +53,7 @@ export default function Achievements() {
 
   return (
     <section id="achievements" className="py-20">
-      <div className="container px-4 md:px-6">
+      <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="Achievements & Leadership" subtitle="Recognition and responsibilities" />
 
         <div ref={ref} className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
