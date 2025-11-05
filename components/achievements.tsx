@@ -2,28 +2,28 @@
 
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import { Award, Users, Trophy , Braces } from "lucide-react"
+import { Award, Users, Trophy, Braces } from "lucide-react" 
 import SectionHeading from "./section-heading"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
 const achievements = [
   {
     id: 1,
-    title: "Ranked 12th in IHMMC",
-    description: "Among 1100+ participants (235 teams)",
-    icon: Trophy,
+    title: "Hacktoberfest 2025",
+    description: "Successfully completed the challenge, contributing to open-source project.",
+    icon: Award,
   },
   {
     id: 2,
-    title: "Organized Events",
-    description: "200+ participants learned showcased their innovative ideas and working prototypes",
+    title: "Open Source Contributor",
+    description: "Contributed to Kestra, creating the dropbox plugin, fixing bugs and improving features.",
     icon: Braces,
   },
   {
     id: 3,
-    title: "Second Runner-up",
-    description: "In Extempore competition",
-    icon: Award,
+    title: "Ranked 12th in IHMMC",
+    description: "Among 1100+ participants (235 teams)",
+    icon: Trophy,
   },
   {
     id: 4,
@@ -39,6 +39,18 @@ const achievements = [
   },
   {
     id: 6,
+    title: "Second Runner-up",
+    description: "In Extempore competition",
+    icon: Award,
+  },
+  {
+    id: 7,
+    title: "Organized Events",
+    description: "200+ participants learned showcased their innovative ideas and working prototypes",
+    icon: Users, // Re-using Users icon as it fits 'organizing people'
+  },
+  {
+    id: 8,
     title: "Hardware Club Representative",
     description: "Asansol Engineering College",
     icon: Users,
@@ -73,12 +85,12 @@ export default function Achievements() {
                   <CardDescription>{achievement.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  {achievement.id === 3 && (
+                  {achievement.id === 4 && (
                     <p className="text-sm text-muted-foreground">
                       Leading web technology initiatives and organizing workshops for students.
                     </p>
                   )}
-                  {achievement.id === 4 && (
+                  {achievement.id === 5 && (
                     <p className="text-sm text-muted-foreground">
                       Facilitated web development sessions and mentored junior students.
                     </p>

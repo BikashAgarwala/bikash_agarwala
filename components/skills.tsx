@@ -11,7 +11,7 @@ const skillCategories = [
   },
   {
     name: "Frontend",
-    skills: ["Next.js", "React.js", "Zustand", "Redux", "Tanstack Query", "Tailwind CSS", "Material-UI", "Bootstrap"],
+    skills: ["Next.js", "React.js", "Vue.js", "Zustand", "Redux", "Tanstack Query", "Tailwind CSS", "Material-UI", "Bootstrap"],
   },
   {
     name: "Backend",

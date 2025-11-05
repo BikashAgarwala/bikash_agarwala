@@ -65,7 +65,16 @@ export default function Hero() {
             className="text-xl md:text-2xl font-medium text-muted-foreground h-12"
           >
             <TypeAnimation
-              sequence={["Software Developer", 1000, "Full Stack Engineer", 1000, "Web Technology Lead", 1000]}
+              sequence={[
+                "Software Developer",
+                1000,
+                "Full Stack Engineer",
+                1000,
+                "AI/ML Enthusiast",
+                1000,
+                "Open Source Contributor",
+                1000,
+              ]}
               wrapper="span"
               speed={50}
               repeat={Number.POSITIVE_INFINITY}
@@ -79,8 +88,8 @@ export default function Hero() {
             className="max-w-md text-muted-foreground"
           >
             <p>
-              I build web apps that are fast, reliable, and simple to use.
-              I work across frontend and backend to turn ideas into products.
+              A 4th-year Computer Science student passionate about building scalable systems. 
+              From backend services to frontend finesse, I turn complex ideas into production-ready applications.
             </p>
           </motion.div>
 
@@ -105,7 +114,7 @@ export default function Hero() {
               <Button onClick={() => { router.push("https://github.com/BikashAgarwala") }} variant="ghost" size="icon">
                 <Github size={20} />
               </Button>
-              <Button onClick={() => { router.push("https://linkedin.com/in/bikash-agarwala-283873229") }} variant="ghost" size="icon">
+              <Button onClick={() => { router.push("https://www.linkedin.com/in/bikashagarwala0") }} variant="ghost" size="icon">
                 <Linkedin size={20} />
               </Button>
             </div>

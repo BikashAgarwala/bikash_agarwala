@@ -23,7 +23,7 @@ export default function Experience() {
             initial={{ opacity: 0, y: 50 }}
             animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 0.5 }}
-            className="relative pl-8 border-l border-primary/20"
+            className="relative pl-8 border-l border-primary/20 mb-12"
           >
             <div className="absolute top-0 left-0 w-4 h-4 rounded-full bg-primary -translate-x-1/2"></div>
 
@@ -45,15 +45,17 @@ export default function Experience() {
               </div>
 
               <ul className="space-y-2 list-disc list-inside text-muted-foreground">
-                <li>Built booking workflows (flights, hotels, holidays) powering 20K+ monthly users.</li>
-                <li>Designed and developed flight list and filter system improving search speed by 45% and ensured scalability..</li>
+                <li>Built booking workflows (flights, hotels, holidays and activities) powering 20K+ monthly users.</li>
+                <li>Designed and developed flight list and filter system improving search speed by 45% and ensured scalability.</li>
                 <li>Enhanced search relevance and cut response times by 40% through query optimization, Redis caching, and background jobs.</li>
+                <li>Developed and executed the &quot;Pandal Hopper&apos;s Digital Passport&quot; marketing campaign during Durga Puja 2025.</li>
+                <li>Built an SEO-friendly, server-rendered layout for a &quot;sticker-hunt&quot; campaign using Next.js.</li>
                 <li>Integrated Razorpay payments and WhatsApp API. Increased booking conversions by 30%.</li>
-                <li>Implemented MVVM architecture, Docker, and CI/CD pipelines. Boosted modularity, reliability, and deployment speed.</li>
               </ul>
 
               <div className="flex flex-wrap gap-2 mt-4">
                 <Badge variant="secondary">FastAPI</Badge>
+                <Badge variant="secondary">Spring Boot</Badge>
                 <Badge variant="secondary">Next.js</Badge>
                 <Badge variant="secondary">MongoDB</Badge>
                 <Badge variant="secondary">Redis</Badge>

@@ -10,11 +10,24 @@ import SectionHeading from "./section-heading"
 import FoodEase from "@/public/FoodEase.avif"
 import Chatify from "@/public/Chatify.avif"
 import HealthyMe from "@/public/HealthyMe.avif"
+import Stash from "@/public/Stash.png"
 import Image from "next/image"
+import Link from "next/link"
 
 const projects = [
   {
     id: 1,
+    title: "Stash",
+    description: "Universal content management system to stash, organize, and manage personal data like notes, images, and links.",
+    details:
+      "A personal project focused on building a scalable, centralized hub for all personal knowledge and data to strengthen my resume.",
+    image: Stash,
+    tags: ["Next.js", "FastAPI", "MongoDB", "Scalable Systems", "Tailwind CSS"],
+    github: "https://github.com/BikashAgarwala/project-stash",
+    demo: "#",
+  },
+  {
+    id: 2,
     title: "FoodEase",
     description: "An online food ordering system where restaurants manage menus, timings, and accept/reject orders.",
     details:
@@ -25,7 +38,7 @@ const projects = [
     demo: "#",
   },
   {
-    id: 2,
+    id: 3,
     title: "Chatify",
     description: "A real-time chat room platform supporting multiple users with seamless live messaging.",
     details: "Implemented custom room creation, joining, and instant updates using WebSocket communication.",
@@ -35,7 +48,7 @@ const projects = [
     demo: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "HealthyMe",
     description: "An AI-powered medical assistant offering medical query support and health challenges.",
     details: "Added features like health tracking, rewards system, and secure authentication via OAuth.",
@@ -70,7 +83,9 @@ export default function Projects() {
                   <Image
                     src={project.image || "/placeholder.svg"}
                     alt={project.title}
-                    className="w-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    width={500}
+                    height={300}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
                 <CardHeader>
@@ -106,13 +121,14 @@ export default function Projects() {
             </motion.div>
           ))}
         </div>
-
-        <div className="flex justify-center mt-10">
-          <Button variant="outline" className="gap-2">
-            See more projects
-            <ArrowRight size={16} />
-          </Button>
-        </div>
+        <Link href="https://github.com/BikashAgarwala" target="_blank" rel="noopener noreferrer">
+          <div className="flex justify-center mt-10">
+            <Button variant="outline" className="gap-2">
+              See more projects
+              <ArrowRight size={16} />
+            </Button>
+          </div>
+        </Link>
       </div>
     </section>
   )

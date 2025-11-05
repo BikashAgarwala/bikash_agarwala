@@ -1,5 +1,6 @@
 import { Github, Linkedin, Mail, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Footer() {
   return (
@@ -12,15 +13,21 @@ export default function Footer() {
               A passionate software developer focused on building innovative web applications.
             </p>
             <div className="flex space-x-2">
-              <Button variant="ghost" size="icon">
-                <Github size={20} />
-              </Button>
-              <Button variant="ghost" size="icon">
-                <Linkedin size={20} />
-              </Button>
-              <Button variant="ghost" size="icon">
-                <Mail size={20} />
-              </Button>
+              <Link href="https://github.com/BikashAgarwala">
+                <Button variant="ghost" size="icon">
+                  <Github size={20} />
+                </Button>
+              </Link>
+              <Link href="https://www.linkedin.com/in/bikashagarwala0">
+                <Button variant="ghost" size="icon">
+                  <Linkedin size={20} />
+                </Button>
+              </Link>
+              <Link href="mailto:bikash.agarwala.01@gmail.com">
+                <Button variant="ghost" size="icon">
+                  <Mail size={20} />
+                </Button>
+              </Link>
             </div>
           </div>
 

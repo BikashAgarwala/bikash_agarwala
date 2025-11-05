@@ -41,19 +41,19 @@ export default function About() {
             className="space-y-6"
           >
             <p className="text-lg">
-              Hey there! I&apos;m <span className="font-semibold text-primary">Bikash Agarwala</span>, a full-stack developer who loves turning complex problems into clean, scalable solutions. Currently pursuing my Bachelor&apos;s in Information Technology at Asansol Engineering College, I thrive at the intersection of frontend finesse and backend muscle.
+              Hey there! I&apos;m <span className="font-semibold text-primary">Bikash Agarwala</span>, a <b>4th-year</b> student pursuing <b>Information Technology</b> at Asansol Engineering College. I&apos;m a full-stack developer passionate about turning complex problems into clean, scalable solutions, with a growing focus on <b>scalable systems and AI/ML</b>.
             </p>
 
             <p>
-              I&apos;ve gained hands-on experience at Komfy Trip LLP, where I built and optimized production-ready web applications using FastAPI, Next.js, MongoDB, Redis, and other modern technologies. My focus: creating fast, responsive, and reliable apps that people actually enjoy using.
+              I&apos;ve gained hands-on experience as a <b>Software Development Engineer (SDE) at KomfyTrip</b>, where I build and optimize production-ready web applications using modern technologies like <b>Spring Boot</b>, <b>FastAPI</b>, <b>Next.js</b>, <b>MongoDB</b>, and <b>Redis</b>.
             </p>
 
             <p>
-              Beyond shipping code, I&apos;m obsessed with learning, experimenting, and pushing limits. Whether it&apos;s scaling systems, refining UI/UX, or diving into new stacks, I aim to craft solutions that don&apos;t just work—they impress.
+              I&apos;m also a passionate <b>open-source contributor</b>. I actively participated in <b>Hacktoberfest 2025</b> and have contributed to <b>Kestra</b>, tackling bugs and improving features. I&apos;m always looking to collaborate and build in public.
             </p>
 
             <p>
-              Outside of dev work, I contribute to communities as the Web Technology Lead for GDG on Campus AEC, helping others grow while staying on top of the latest in tech.
+              I&apos;ve also given back to the tech community, <b>formerly serving</b> as the Web Technology Lead for <b>GDGC-AEC</b>, where I helped others grow and stay on top of the latest in tech.
             </p>
 
             <div className="pt-4">
