@@ -52,7 +52,7 @@ export default function AnimatedBackground() {
         vx: (Math.random() - 0.5) * 0.5,
         vy: (Math.random() - 0.5) * 0.5,
         radius: Math.random() * 2 + 1,
-        color: "#8B5CF6",
+        color: "217, 91%, 60%", // Approximate primary color
         alpha: Math.random() * 0.3 + 0.1,
       })
     }
@@ -115,7 +115,7 @@ export default function AnimatedBackground() {
         // Draw point
         ctx.beginPath()
         ctx.arc(point.x, point.y, point.radius, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(139, 92, 246, ${point.alpha})`
+        ctx.fillStyle = `hsla(217, 91%, 60%, ${point.alpha})`
         ctx.fill()
 
         // Draw connections
@@ -126,7 +126,7 @@ export default function AnimatedBackground() {
             ctx.moveTo(point.x, point.y)
             ctx.lineTo(mousePosition.x, mousePosition.y)
             const opacity = 0.2 * (1 - distance / 150)
-            ctx.strokeStyle = `rgba(139, 92, 246, ${opacity})`
+            ctx.strokeStyle = `hsla(217, 91%, 60%, ${opacity})`
             ctx.stroke()
           }
         }
@@ -140,7 +140,7 @@ export default function AnimatedBackground() {
             ctx.moveTo(point.x, point.y)
             ctx.lineTo(otherPoint.x, otherPoint.y)
             const opacity = 0.15 * (1 - distance / 100)
-            ctx.strokeStyle = `rgba(139, 92, 246, ${opacity})`
+            ctx.strokeStyle = `hsla(217, 91%, 60%, ${opacity})`
             ctx.stroke()
           }
         }

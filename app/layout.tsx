@@ -13,6 +13,8 @@ export const metadata = {
     "Portfolio website of Bikash Agarwala, a passionate software developer specializing in full-stack development.",
 }
 
+import Navbar from "@/components/navbar"
+
 export default function RootLayout({
   children,
 }: {
@@ -22,6 +24,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+          <Navbar />
           {children}
           <Toaster />
           <Analytics />

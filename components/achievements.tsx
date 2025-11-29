@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion"
 import { useInView } from "react-intersection-observer"
-import { Award, Users, Trophy, Braces } from "lucide-react" 
+import { Award, Users, Trophy, Braces } from "lucide-react"
 import SectionHeading from "./section-heading"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 
@@ -47,7 +47,7 @@ const achievements = [
     id: 7,
     title: "Organized Events",
     description: "200+ participants learned showcased their innovative ideas and working prototypes",
-    icon: Users, // Re-using Users icon as it fits 'organizing people'
+    icon: Users,
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ export default function Achievements() {
   })
 
   return (
-    <section id="achievements" className="py-20">
+    <section id="achievements" className="py-20 bg-muted/30">
       <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="Achievements & Leadership" subtitle="Recognition and responsibilities" />
 
@@ -76,12 +76,12 @@ export default function Achievements() {
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Card className="h-full border-primary/10 hover:border-primary/30 transition-colors">
+              <Card className="h-full bg-card/50 backdrop-blur-sm border-primary/10 hover:border-primary/30 transition-colors hover:shadow-lg">
                 <CardHeader className="pb-2">
                   <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-4">
                     <achievement.icon className="h-6 w-6 text-primary" />
                   </div>
-                  <CardTitle>{achievement.title}</CardTitle>
+                  <CardTitle className="text-lg">{achievement.title}</CardTitle>
                   <CardDescription>{achievement.description}</CardDescription>
                 </CardHeader>
                 <CardContent>
