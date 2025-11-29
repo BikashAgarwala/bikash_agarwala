@@ -11,12 +11,24 @@ import FoodEase from "@/public/FoodEase.avif"
 import Chatify from "@/public/Chatify.avif"
 import HealthyMe from "@/public/HealthyMe.avif"
 import Stash from "@/public/Stash.png"
+import Clooney from "@/public/Clooney.png"
 import Image from "next/image"
 import Link from "next/link"
 
 const projects = [
   {
     id: 1,
+    title: "Clooney",
+    description: "AI-Powered Web App Cloning Agent.",
+    details:
+      "An agentic system using a hybrid LLM architecture (Gemini Pro/Flash) for high-fidelity frontend replication. Features include structural scaffolding to prevent API timeouts and successful integration of interactivity (UX) cloning.",
+    image: Clooney,
+    tags: ["Python", "Gemini LLMs", "Playwright", "Next.js", "Tailwind CSS"],
+    github: "https://github.com/BikashAgarwala/Clooney",
+    demo: "#",
+  },
+  {
+    id: 2,
     title: "Stash",
     description: "Universal content management system for personal data.",
     details:
@@ -27,7 +39,7 @@ const projects = [
     demo: "#",
   },
   {
-    id: 2,
+    id: 3,
     title: "FoodEase",
     description: "Restaurant management and food ordering system.",
     details:
@@ -38,7 +50,7 @@ const projects = [
     demo: "#",
   },
   {
-    id: 3,
+    id: 4,
     title: "Chatify",
     description: "Real-time chat platform with WebSocket support.",
     details: "Supports custom rooms, instant messaging, and seamless user experience.",
@@ -48,7 +60,7 @@ const projects = [
     demo: "#",
   },
   {
-    id: 4,
+    id: 5,
     title: "HealthyMe",
     description: "AI-powered medical assistant and health tracker.",
     details: "Includes health challenges, rewards system, and secure OAuth authentication.",
@@ -57,7 +69,7 @@ const projects = [
     github: "https://github.com/BikashAgarwala/Healthy-me",
     demo: "https://healthy-me-me.vercel.app/",
   },
-]
+];
 
 export default function Projects() {
   const [ref, inView] = useInView({
@@ -66,7 +78,7 @@ export default function Projects() {
   })
 
   return (
-    <section id="projects" className="py-20 bg-muted/30">
+    <section id="projects" className="py-10 bg-muted/30">
       <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="Featured Projects" subtitle="Showcasing my technical skills through real-world applications" />
 

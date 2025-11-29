@@ -30,7 +30,7 @@ export default function OpenSource() {
     ]
 
     return (
-        <section id="open-source" className="py-20 bg-muted/30">
+        <section id="open-source" className="bg-muted/30">
             <div className="container px-4 md:px-6 mx-auto">
                 <SectionHeading title="Open Source Contributions" subtitle="Giving back to the community" />
 

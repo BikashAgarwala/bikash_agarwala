@@ -33,7 +33,7 @@ export default function Education() {
   ]
 
   return (
-    <section id="education" className="py-0 bg-muted/30">
+    <section id="education" className="py-10 bg-muted/30">
       <div className="container px-4 md:px-6 mx-auto flex flex-col items-center">
         <SectionHeading title="Education" subtitle="My academic background" />
 
@@ -70,7 +70,7 @@ export default function Education() {
                             <Calendar size={12} /> {edu.period}
                           </Badge>
                         </div>
-                        <div className="flex items-center gap-4 text-sm text-muted-foreground">
+                        <div className="lg:flex items-center gap-4 text-sm text-muted-foreground">
                           <span className="flex items-center gap-1">
                             <GraduationCap size={14} /> {edu.school}
                           </span>
