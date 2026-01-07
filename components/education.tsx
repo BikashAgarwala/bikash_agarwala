@@ -33,7 +33,7 @@ export default function Education() {
   ]
 
   return (
-    <section id="education" className="py-10 bg-muted/30">
+    <section id="education" className="py-10 md:py-20 bg-muted/30">
       <div className="container px-4 md:px-6 mx-auto flex flex-col items-center">
         <SectionHeading title="Education" subtitle="My academic background" />
 

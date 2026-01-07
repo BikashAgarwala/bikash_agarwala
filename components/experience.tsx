@@ -30,7 +30,7 @@ export default function Experience() {
   ]
 
   return (
-    <section id="experience" className="">
+    <section id="experience" className="py-10 md:py-20">
       <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="Work Experience" subtitle="My professional journey so far" />
 

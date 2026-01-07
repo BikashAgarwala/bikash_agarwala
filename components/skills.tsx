@@ -32,7 +32,7 @@ export default function Skills() {
   })
 
   return (
-    <section id="skills" className="">
+    <section id="skills" className="py-10 md:py-20">
       <div className="container px-4 md:px-6 mx-auto">
         <SectionHeading title="Technical Skills" subtitle="Technologies I work with" />
 
