@@ -24,7 +24,7 @@ const projects = [
       "An agentic system using a hybrid LLM architecture (Gemini Pro/Flash) for high-fidelity frontend replication. Features include structural scaffolding to prevent API timeouts and successful integration of interactivity (UX) cloning.",
     image: Clooney,
     tags: ["Python", "Gemini LLMs", "Playwright", "Next.js", "Tailwind CSS"],
-    github: "https://github.com/BikashAgarwala/Clooney",
+    github: "https://github.com/bikashagarwala0/Clooney",
     demo: "#",
   },
   {
@@ -35,7 +35,7 @@ const projects = [
       "A centralized hub for organizing notes, images, and links. Built for scalability and ease of use.",
     image: Stash,
     tags: ["Next.js", "FastAPI", "MongoDB", "Tailwind CSS"],
-    github: "https://github.com/BikashAgarwala/project-stash",
+    github: "https://github.com/bikashagarwala0/project-stash",
     demo: "#",
   },
   {
@@ -46,7 +46,7 @@ const projects = [
       "Features live menu updates, order management, and real-time status tracking for customers.",
     image: FoodEase,
     tags: ["Spring Boot", "Next.js", "MySQL", "Redis"],
-    github: "https://github.com/BikashAgarwala/FoodEase",
+    github: "https://github.com/bikashagarwala0/FoodEase",
     demo: "#",
   },
   {
@@ -56,7 +56,7 @@ const projects = [
     details: "Supports custom rooms, instant messaging, and seamless user experience.",
     image: Chatify,
     tags: ["Spring Boot", "WebSocket", "JavaScript"],
-    github: "https://github.com/BikashAgarwala/Chatify",
+    github: "https://github.com/bikashagarwala0/Chatify",
     demo: "#",
   },
   {
@@ -66,7 +66,7 @@ const projects = [
     details: "Includes health challenges, rewards system, and secure OAuth authentication.",
     image: HealthyMe,
     tags: ["React.js", "Tailwind CSS", "AI Integration"],
-    github: "https://github.com/BikashAgarwala/Healthy-me",
+    github: "https://github.com/bikashagarwala0/Healthy-me",
     demo: "https://healthy-me-me.vercel.app/",
   },
 ];
@@ -136,7 +136,7 @@ export default function Projects() {
         </div>
 
         <div className="flex justify-center mt-12">
-          <Link href="https://github.com/BikashAgarwala" target="_blank" rel="noopener noreferrer">
+          <Link href="https://github.com/bikashagarwala0" target="_blank" rel="noopener noreferrer">
             <Button variant="outline" size="lg" className="gap-2 group">
               View All Projects
               <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />

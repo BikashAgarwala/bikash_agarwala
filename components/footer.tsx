@@ -21,7 +21,7 @@ export default function Footer() {
           </div>
 
           <div className="flex gap-4">
-            <Link href="https://github.com/BikashAgarwala" target="_blank" rel="noopener noreferrer">
+            <Link href="https://github.com/bikashagarwala0" target="_blank" rel="noopener noreferrer">
               <Button variant="ghost" size="icon" className="hover:text-primary hover:bg-primary/10">
                 <Github size={20} />
               </Button>

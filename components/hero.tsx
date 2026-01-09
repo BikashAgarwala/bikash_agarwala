@@ -104,7 +104,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="flex gap-4 pt-8"
           >
-            <a href="https://github.com/BikashAgarwala" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+            <a href="https://github.com/bikashagarwala0" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
               <Github size={24} />
             </a>
             <a href="https://www.linkedin.com/in/bikashagarwala0" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
